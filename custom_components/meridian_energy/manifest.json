@@ -4,6 +4,7 @@
 	"codeowners": [
 		"@codyc1515"
 	],
+	"config_flow": true,
 	"dependencies": [
 		"recorder"
 	],
@@ -11,6 +12,5 @@
 	"iot_class": "cloud_polling",
 	"issue_tracker": "https://github.com/codyc15/ha-meridian-energy/issues",
 	"requirements": [],
-	"version": "1.0.1",
-	"config_flow": true
+	"version": "1.0.1"
 }
