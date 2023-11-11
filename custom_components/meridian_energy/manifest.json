@@ -9,6 +9,6 @@
 	"issue_tracker": "https://github.com/codyc15/ha-meridian-energy/issues",
 	"name": "Meridian Energy",
 	"requirements": [],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"config_flow": true
 }

@@ -108,20 +108,20 @@ class MeridianEnergyUsageSensor(SensorEntity):
         """Return the state attributes of the sensor."""
         return self._state_attributes
 
-    @property
-    def unit_of_measurement(self):
-        """Return the unit of measurement."""
-        return self._unit_of_measurement
-    
-    @property
-    def state_class(self):
-        """Return the state class."""
-        return self._state_class
-    
-    @property
-    def device_class(self):
-        """Return the device class."""
-        return self._device_class
+    #@property
+    #def unit_of_measurement(self):
+    #    """Return the unit of measurement."""
+    #    return self._unit_of_measurement
+    #
+    #@property
+    #def state_class(self):
+    #    """Return the state class."""
+    #    return self._state_class
+    #
+    #@property
+    #def device_class(self):
+    #    """Return the device class."""
+    #    return self._device_class
         
     @property
     def unique_id(self):
