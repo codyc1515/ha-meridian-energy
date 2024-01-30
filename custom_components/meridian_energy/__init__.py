@@ -1,11 +1,11 @@
-"""Support for Meridian Energy sensors"""
+"""Support for Meridian Energy sensors."""
+
 import logging
 
 from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
 
-from .api import MeridianEnergyApi
-from .const import DOMAIN, SENSOR_NAME, PLATFORMS
+from .const import DOMAIN, PLATFORMS
 
 
 _LOGGER = logging.getLogger(__name__)
